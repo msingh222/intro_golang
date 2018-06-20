@@ -24,5 +24,11 @@ func main()  {
 	fmt.Print(Vertex{1,2})
 
 	fmt.Println(v1,v2,v3,*v4)
+	m = make(map[string]Vertex)
 }
+
+var m map[string]Vertex
+
+
+
 
